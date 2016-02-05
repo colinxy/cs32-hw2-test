@@ -4,8 +4,7 @@ CPPFLAGS = -std=c++11 -Wall -Wextra \
            -Wno-sign-compare -Werror=return-type
 
 ifeq ($(CXX),g32)
-	CPPFLAGS -= -std=c++11 -Wall -Wextra
-	CPPFLAGS -= -Wno-sign-compare -Werror=return-type
+	CPPFLAGS = 
 endif
 
 
